@@ -1,0 +1,17 @@
+#! armcc -E -I .\ --cpu Cortex-M0
+
+#include "da14580_config.h"
+
+#if defined(ARRAYS_AS_CONST_DATA)
+--datacompressor=off
+#else
+--datacompressor=1
+#endif
+--map 
+--any_placement=best_fit 
+--feedback=".\system\unused.txt" 
+--remove "..\..\..\misc\rom_symdef.txt" 
+--symdefs="full_emb_sysram_symdef.txt" 
+--keep gapm.o(timeout_table_area) 
+--keep jump_table.o(*) 
+--keep nvds.o(*)

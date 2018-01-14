@@ -1,0 +1,118 @@
+;#<FEEDBACK># ARM Linker, 5060183: Last Updated: Sun Jan 14 20:09:42 2018
+;VERSION 0.2
+;FILE adc.o
+adc_disable <= USED 0
+;FILE app.o
+app_adv_start <= USED 0
+;FILE app_batt.o
+app_batt_enable <= USED 0
+app_batt_init <= USED 0
+app_batt_port_reinit <= USED 0
+;FILE app_batt_task.o
+;FILE app_console.o
+;FILE app_dis.o
+app_dis_enable_prf <= USED 0
+;FILE app_dis_task.o
+;FILE app_kbd.o
+app_hid_ntf_cfm <= USED 0
+app_kbd_disable_scanning <= USED 0
+app_kbd_enable_delayed_scanning <= USED 0
+kbd_search_in_list <= USED 0
+process_key_combinations <= USED 0
+;FILE app_kbd_fsm.o
+;FILE app_kbd_leds.o
+leds_block_sleep <= USED 0
+leds_init <= USED 0
+leds_set_connection_established <= USED 0
+leds_set_connection_in_progress <= USED 0
+leds_set_disconnected <= USED 0
+red_led_blink <= USED 0
+;FILE app_kbd_proj.o
+app_adv_func <= USED 0
+app_fake_disconnect <= USED 0
+;FILE app_kbd_proj_task.o
+app_extended_timer_clear <= USED 0
+app_extended_timer_set <= USED 0
+;FILE app_kbd_scan_fsm.o
+app_use_lower_clocks_check <= USED 0
+;FILE app_multi_bond.o
+app_alt_pair_check_peer <= USED 0
+app_alt_pair_delete_entry <= USED 0
+app_alt_pair_get_next_bond_data <= USED 0
+app_alt_pair_load_entry <= USED 0
+app_alt_pair_store_status <= USED 0
+app_alt_peer_get_active_index <= USED 0
+update_usage_count_values <= USED 0
+;FILE app_sec.o
+app_sec_gen_tk <= USED 0
+;FILE app_sec_task.o
+;FILE app_spotar.o
+app_spotar_exec_patch <= USED 0
+;FILE app_spotar_task.o
+;FILE app_task.o
+;FILE app_white_list.o
+add_host_in_white_list <= USED 0
+clear_white_list <= USED 0
+lookup_public_in_virtual_white_list <= USED 0
+lookup_rand_in_virtual_white_list <= USED 0
+remove_host_from_white_list <= USED 0
+send_white_list_mgt_cmd <= USED 0
+;FILE arch_main.o
+;FILE arch_sleep.o
+app_ble_ext_wakeup_on <= USED 0
+app_last_rwble_evt_get <= USED 0
+;FILE arch_system.o
+calculate_arch_adv_time <= USED 0
+calibrate_rcx20 <= USED 0
+lld_sleep_lpcycles_2_us_rcx_func <= USED 0
+lld_sleep_us_2_lpcycles_rcx_func <= USED 0
+read_rcx_freq <= USED 0
+select_lp_clk <= USED 0
+set_pxact_gpio <= USED 0
+;FILE atts_task.obj
+;FILE bass.o
+;FILE battery.o
+batt_cal_cr1225 <= USED 0
+batt_cal_cr2032 <= USED 0
+;FILE boot_vectors.o
+;FILE ch_map.obj
+;FILE diss.o
+;FILE gapm_util.obj
+;FILE gpio.o
+GPIO_GetPinStatus <= USED 0
+;FILE hardfault_handler.o
+;FILE hogpd.o
+;FILE i2c_eeprom.o
+i2c_eeprom_read_byte <= USED 0
+;FILE jump_table.o
+dummyf <= USED 0
+;FILE ke_mem.obj
+log_ke_free <= USED 0
+log_ke_malloc <= USED 0
+;FILE ke_task.obj
+;FILE nmi_handler.o
+;FILE nvds.o
+;FILE periph_setup.o
+;FILE prf_utils.o
+prf_pack_date_time <= USED 0
+prf_unpack_date_time <= USED 0
+;FILE rf_580.o
+;FILE rwble.o
+;FILE rwip.o
+;FILE smpc.obj
+;FILE spotar.o
+spotar_patched_data_rcved <= USED 0
+;FILE system_armcm0.o
+;FILE uart2.o
+uart2_finish_transfers <= USED 0
+uart2_finish_transfers_func <= USED 0
+uart2_flow_off <= USED 0
+uart2_flow_off_func <= USED 0
+uart2_flow_on <= USED 0
+uart2_flow_on_func <= USED 0
+uart2_read <= USED 0
+;FILE user_uart2.o
+;FILE wkupct_quadec.o
+wkupct_disable_irq <= USED 0
+wkupct_enable_irq <= USED 0
+wkupct_quad_disable_IRQ <= USED 0
